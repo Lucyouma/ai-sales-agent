@@ -111,20 +111,6 @@ npm run dev
 - **Cold Lead**: 30-49 points
 - **Unqualified**: <30 points
 
-## 🛠️ API Endpoints
-
-### Backend (`http://localhost:3000`)
-
-- `GET /health` - Health check
-- `POST /run-agent` - Execute the full sales pipeline
-
-## 📊 Sample Data
-
-The system includes sample leads:
-- **John Smith** (TechCorp Inc) - VP of Engineering
-- **Sarah Johnson** (StartupXYZ) - CEO  
-- **Mike Davis** (Enterprise Solutions) - CTO
-
 ## 🔄 Pipeline Flow
 
 1. Fetch all leads from database
@@ -132,48 +118,6 @@ The system includes sample leads:
 3. Generate outreach messages for Hot/Warm leads
 4. Skip Cold/Unqualified leads
 5. Display results with summary statistics
-
-## 🎯 Usage
-
-### Command Line
-```bash
-cd backend
-bun run index.ts
-```
-
-### Web Interface
-1. Start both backend and frontend servers
-2. Open http://localhost:3001
-3. Click "Run Sales Agent Pipeline"
-4. View results and generated outreach messages
-
-## 🧠 AI Integration
-
-- **Model**: OpenAI GPT-4o-mini
-- **Tools**: Custom functions for lead management
-- **Personalization**: Dynamic message generation based on lead data
-- **Streaming**: Real-time response streaming
-
-## 📝 Development
-
-### Backend Development
-```bash
-cd backend
-bun run server.ts  # Start development server
-```
-
-### Frontend Development
-```bash
-cd frontend
-npm run dev       # Start Next.js development server
-```
-
-## 🔐 Environment Variables
-
-Create a `.env` file in the backend directory:
-```
-OPENAI_API_KEY=your-openai-api-key
-```
 
 ## 📈 Future Enhancements
 
