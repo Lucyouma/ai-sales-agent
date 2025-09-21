@@ -1,6 +1,20 @@
 # AI Sales Agent
 
-An AI-powered sales automation platform that fetches leads, qualifies them, and generates personalized outreach messages.
+This project is an AI-powered sales assistant designed for CEOs, founders, and sales teams who face challenges with:
+
+- **Unqualified leads clogging their CRM**
+- **Time wasted on manual outreach**
+- **Missed opportunities from cold leads**
+
+The AI Sales Agent automatically:
+
+- **Connects to a lead database/CRM**
+- **Scores and qualifies leads** based on predefined business rules (budget, company size, engagement history)
+- **Enriches missing data** using AI (e.g., analyzing company websites or past interactions)
+- **Generates personalized outreach messages** for cold leads
+- **Schedules appointments** with high-value prospects
+
+**Why it matters:** Sales teams can focus on closing deals while the AI handles lead filtering, nurturing, and booking. This directly saves time, cuts costs, and accelerates revenue growth.
 
 ## 🏗️ Project Structure
 
