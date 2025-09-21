@@ -16,6 +16,25 @@ The AI Sales Agent automatically:
 
 **Why it matters:** Sales teams can focus on closing deals while the AI handles lead filtering, nurturing, and booking. This directly saves time, cuts costs, and accelerates revenue growth.
 
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js 14** – Modern React framework for dashboard and UI
+- **TailwindCSS** – Utility-first CSS for responsive design
+
+### Backend
+- **Node.js + Express** – REST API server for lead management
+- **Supabase/PostgreSQL** – Database to store and track leads
+
+### AI & Automation
+- **OpenAI GPT-4o** – Lead scoring, enrichment, and outreach drafting
+- **LangChain** – Orchestration of AI workflows
+- **Make.com/Zapier** – Integration for automated email and calendar bookings
+
+### Development Tooling
+- **Cursor or Zed** – AI-assisted IDEs for coding, reviews, and commit messages
+- **GitHub** – Version control and collaboration
+
 ## 🏗️ Project Structure
 
 ```
@@ -73,10 +92,6 @@ npm install
 # Run the frontend
 npm run dev
 ```
-
-### Access the Application
-- Frontend: http://localhost:3001
-- Backend API: http://localhost:3000
 
 ## 🔧 Features
 
